@@ -14,6 +14,25 @@ function Main() {
             name: "Red dress",
             price: "loading...",
         },
+        {
+            image: Image1,
+            name: "Floral dress",
+            price: "loading...",
+        },
+        {
+            image: Image1,
+            name: "Floral dress",
+            price: "loading...",
+        }, {
+            image: Image2,
+            name: "Red dress",
+            price: "loading...",
+        },
+        {
+            image: Image1,
+            name: "Floral dress",
+            price: "loading...",
+        },
     ]
 
 
@@ -21,8 +40,8 @@ function Main() {
         <div>
 
             <div className="max-w-5xl mx-auto">
-                <div className="p-10 mb-40">
-                    <h1 className="my-10 font-semibold text-2xl text-center md:text-left">Dresses</h1>
+                <div className="p-10 mb-40 sm:mt-40">
+                    <h1 className="my-10 font-semibold text-2xl text-center text-red-500">Dresses</h1>
                     <div className="flex flex-col md:flex-row flex-wrap">
                         {
                             dresses.map((dress, dressIndex) => {
