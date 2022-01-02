@@ -40,7 +40,7 @@ function Main() {
         <div id='home'>
 
             <div className="max-w-5xl mx-auto">
-                <div className="p-10 mb-40 sm:mt-40">
+                <div className="p-10 mb-40 mt-10 sm:mt-40">
                     <h1 className="my-10 font-semibold text-2xl text-center text-red-500">Dresses</h1>
                     <div className="flex flex-col md:flex-row flex-wrap">
                         {
