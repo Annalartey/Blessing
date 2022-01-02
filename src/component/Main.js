@@ -37,7 +37,7 @@ function Main() {
 
 
     return (
-        <div>
+        <div id='home'>
 
             <div className="max-w-5xl mx-auto">
                 <div className="p-10 mb-40 sm:mt-40">
