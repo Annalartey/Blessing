@@ -1,0 +1,219 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  background-image: url("./img/bg.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  position:absolute;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+
+.App-header {
+  min-height: 100vh;
+  min-width: 100%;
+  color: white;
+}
+
+
+.app-design {
+  background: rgb(255, 255, 255);
+  min-height: 100vh;
+  min-width: 100%;
+  color: rgb(0, 0, 0);
+}
+
+
+.container {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: sticky;
+  top: 0px;
+}
+
+.active{
+  color:rgb(48, 47, 47);
+  background-color:#fff
+}
+
+
+.design-header {
+  background-color: rgb(1, 1, 51);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+
+
+.design-header h3{
+ margin-left: 20px;
+ cursor: pointer;
+ color: rgb(255, 255, 255);
+  }
+
+.design-box {
+  border: double;
+  border-radius: 0 40px;
+  height: 300px;
+}
+
+.btn {
+  display: inline-block;
+  background: rgb(255, 0, 0);
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  margin: 40px 530px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: inherit;
+}
+
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.task {
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.about {
+    width: 600px;
+    max-height: 600px;
+    margin: 0px;
+    padding: 10px 20px;
+    border: 10px;
+}
+
+.design {
+    max-width: 100%;
+    margin: 30px 100px;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+  }
+
+
+
+.design-web {
+    cursor: pointer;
+    border: double;
+    border-radius: 0 20px;
+    height: 200px;
+    width: 100%;
+    color: white;
+  
+  }
+
+  .design-graph {
+     cursor: pointer;
+     border: double;
+     border-radius: 0 20px;
+     height: 200px;
+     width: 100%;
+     color: white;
+   
+  }
+
+  .design-lyrics {
+     cursor: pointer;
+     border: double;
+     border-radius: 0 20px;
+     height: 200px;
+     width: 100%;
+     color: white;
+   
+  }
+
+  .design-art {
+    cursor: pointer;
+    border: double;
+    border-radius: 0 20px;
+    height: 200px;
+    width: 100%;
+    color: white;
+  
+  }
+
+.task.reminder {
+  border-left: 5px solid green;
+}
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-form {
+  margin-bottom: 40px;
+}
+
+.form-control {
+  margin: 20px 0;
+}
+
+.form-control label {
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 40px;
+  margin: 5px;
+  padding: 3px 7px;
+  font-size: 17px;
+}
+
+.form-control-check {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
+
+footer {
+  margin-top: 30px;
+  text-align: center;
+}
