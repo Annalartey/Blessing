@@ -1,4 +1,5 @@
 import React from 'react'
+import Main from './Main'
 
 function Home() {
     return (
@@ -11,6 +12,7 @@ function Home() {
           <a href="/" className=" py-1 text-yellow-500 font-bold border-b-2 border-yellow-500 hover:text-white hover:border-white transition duration-500 ease-in-out hover:border-b-2 transform hover:-translate-y-1 hover:scale-110 cursor:pointer ">Explore</a>
         </div>
           
+          <Main/>
         </div>
     )
 }
