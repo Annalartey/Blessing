@@ -1,7 +1,11 @@
 import React from 'react'
 
 import Image1 from '../img/dress.jpg'
-import Image2 from '../img/dress 1.jpeg'
+import Image2 from '../img/dress3.jpg'
+import Image3 from '../img/dress2.jpg'
+import Image4 from '../img/dress4.jpg'
+import Image5 from '../img/dress1.jpeg'
+import Image6 from '../img/dress5.jpg'
 
 function Main() {
     const dresses = [
@@ -15,22 +19,22 @@ function Main() {
             price: "loading...",
         },
         {
-            image: Image1,
-            name: "Floral dress",
+            image: Image3,
+            name: "Baby's dress",
             price: "loading...",
         },
         {
-            image: Image1,
-            name: "Floral dress",
+            image: Image4,
+            name: "Pinky dress",
             price: "loading...",
         }, {
-            image: Image2,
-            name: "Red dress",
+            image: Image5,
+            name: "Floral dress",
             price: "loading...",
         },
         {
-            image: Image1,
-            name: "Floral dress",
+            image: Image6,
+            name: "Bridal dress",
             price: "loading...",
         },
     ]
